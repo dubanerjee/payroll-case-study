@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "description": "Address Definition",
+    "properties": {
+        "street": {
+            "type": "string"
+        },
+        "city": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string"
+        },
+        "zip": {
+            "type": "string"
+        }
+    }
+}
