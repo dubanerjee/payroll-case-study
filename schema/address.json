@@ -11,8 +11,8 @@
         "state": {
             "type": "string"
         },
-        "state": {
-            "type": "zip"
+        "zip": {
+            "type": "string"
         }
     }
 }
