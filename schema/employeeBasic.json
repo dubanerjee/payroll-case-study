@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "description": "Minimal Employee Definition",
+  "properties": {
+    "employeeId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "$ref": "https://raw.githubusercontent.com/dubanerjee/payroll-case-study/master/schema/address.json"
+    },
+    "payType": {
+      "type": "https://raw.githubusercontent.com/dubanerjee/payroll-case-study/master/schema/payType.json"
+    }
+  }
+}
