@@ -9,10 +9,10 @@
       "type": "string"
     },
     "address": {
-      "$ref": "https://raw.githubusercontent.com/dubanerjee/payroll-case-study/master/schema/address.json"
+      "$ref": "https://raw.githubusercontent.com/dubanerjee/payroll-case-study/master/schema/v1/address.json"
     },
     "payType": {
-      "type": "https://raw.githubusercontent.com/dubanerjee/payroll-case-study/master/schema/payType.json"
+      "type": "https://raw.githubusercontent.com/dubanerjee/payroll-case-study/master/schema/v1/payType.json"
     }
   }
 }
